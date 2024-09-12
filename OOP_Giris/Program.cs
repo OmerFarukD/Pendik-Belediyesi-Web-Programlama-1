@@ -134,6 +134,9 @@ class CarManager
             return;
         }
 
+        // Motor gücü negatif değer alamaz
+        // Renk minimum 2 karakterli olacak ve null olmayacak
+
         Console.WriteLine("******************************");
         Console.WriteLine("Araç eklendi....");
         car1.EkranaYaz();
