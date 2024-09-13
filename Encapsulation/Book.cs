@@ -17,7 +17,7 @@ public class Book
 
     public string AuthorFullName => $"{AuthorName} {AuthorSurname}";
 
-    public string PublishInfo => $"{Publisher} - {PublishDate}";
+    public string PublishInfo => Publisher + " - "+PublishDate;
 
     public override string ToString()
     {
