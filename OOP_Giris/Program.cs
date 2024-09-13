@@ -6,7 +6,7 @@
 //  Ev -> Kaçıncı kat, Apartman adı, kiralık ücreti, oda sayısı
 // salon sayısı
 
- 
+
 
 //Console.WriteLine();
 //Car car = new Car();
@@ -53,8 +53,11 @@
 //car2.EkranaYaz();
 //Console.WriteLine("---------------------------");
 
+using Encapsulation;
+
 Car car5 = new Car(string.Empty,2000,200,"Kırmızı","Otomatik");
 Car car6 = new Car("Renault", 2018, 200, "Kırmızı", "Otomatik");
+
 
 //Console.WriteLine(car5.Marka == car6.Marka);
 

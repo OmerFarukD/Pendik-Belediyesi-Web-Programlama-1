@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodlar", "Metodlar\Metodl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodlar2", "Metodlar2\Metodlar2.csproj", "{ABA5AC18-5577-4EC0-B46A-DF927469E1AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{2A66F276-764B-4F41-921A-84B2BFB721AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{2A66F276-764B-4F41-921A-84B2BFB721AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{FE4DBE72-EA96-482E-ACF6-55CF488EEAE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2A66F276-764B-4F41-921A-84B2BFB721AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A66F276-764B-4F41-921A-84B2BFB721AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A66F276-764B-4F41-921A-84B2BFB721AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4DBE72-EA96-482E-ACF6-55CF488EEAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4DBE72-EA96-482E-ACF6-55CF488EEAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4DBE72-EA96-482E-ACF6-55CF488EEAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4DBE72-EA96-482E-ACF6-55CF488EEAE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
