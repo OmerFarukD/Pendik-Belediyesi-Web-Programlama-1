@@ -12,4 +12,23 @@ Product product = new Product(
     Category: category
     );
 
-Console.WriteLine(product);
+Product[] products = {product, new Product(
+    Name: "Msi Bravo A14",
+    Description: "Msi bilgisayar anlatmaya gerek yok 1",
+    Price: 15000,
+    Stock: 50,
+    Category: category
+    ),
+};
+
+//Array.ForEach(products, x =>
+//{
+//    Console.WriteLine(x);
+//});
+
+foreach (Product item in products)
+{
+    Console.WriteLine(item);
+}
+
+
