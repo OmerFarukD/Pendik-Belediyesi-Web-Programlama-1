@@ -2,11 +2,9 @@
 
 namespace Inheritance.Models;
 
-public class Bicycle
+public sealed class Bicycle : Vehicle
 {
-    public int Id { get; set; }
-    public string TransmissionType { get; set; }
-    public string Color { get; set; }
+  
 
     public bool IsAmortisor { get; set; }
 

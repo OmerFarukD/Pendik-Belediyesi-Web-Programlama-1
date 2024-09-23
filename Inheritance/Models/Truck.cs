@@ -1,16 +1,9 @@
 ﻿namespace Inheritance.Models;
 
-public class Truck
+public sealed class Truck :  MotorVehicle
 {
-    public int Id { get; set; }
-    public int NumberOfDoor { get; set; }
-
-    public string FuelType { get; set; }
-    public string TransmissionType { get; set; }
-
-    public string Color { get; set; }
-
-    public int Kilometer { get; set; }
+ 
+  
 
     public bool Dorse { get; set; }
 
