@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Models
 {
-    internal class Deneme : Bicycle
+    internal class Deneme 
     {
     }
 }

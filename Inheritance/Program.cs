@@ -13,7 +13,4 @@ Car car = new Car()
     UpdatedDate =null,
 };
 
-Vehicle vehicle = new Vehicle();
-MotorVehicle vehicleMotor = new MotorVehicle();
 
-Console.WriteLine(car);
